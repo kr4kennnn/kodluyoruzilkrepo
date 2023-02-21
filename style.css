@@ -1,23 +1,46 @@
-h1, h2, h3, h4, h5, h6{
-    color: #b4da55
+body{
+    margin: 0px;
+    padding: 0px;
 }
 
-.text-red{
-    color:red
+.container{
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.fs-small{
-    font-size: 14px;
+.left-bar{
+    width: 200px;
+    float: left;
 }
 
-.fs-medium{
-    font-size: 20px;
+.content{
+    width: 800px;
+    float: left;
 }
 
-.fs-large{
-    font-size: 30px;
+.card{
+    width: 20%;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: darkcyan;
+    border-radius: 10px;
+    float: left;
 }
 
-#first-article{
-    color:magenta
+.clear{
+    clear: both;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green{
+    background-color: #b4da55;
+}
+
+.bg-yellow{
+    background-color: yellow;
 }
